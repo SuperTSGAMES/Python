@@ -11,7 +11,7 @@ considerando o seu preço normal, e condição de pagamento:
 """
 import os
 print('=' * 42)
-print('={:9}Pedra, Papel e Tesoura{:9}='.format('', ''))
+print('={:7}Gerenciador de Pagamentos{:8}='.format('', ''))
 print('=' * 42)
 compra = float(input('Qual Valor do Produto? '))
 print('''FORMAS DE PAGAMENTO
@@ -36,4 +36,5 @@ else:
     total = compra
     print('OPÇÃO INVÁLIDA de pagamento. Tente novamente!')
 print(f'Sua compra de R$ {compra:.2f} vai custar R$ {total:.2f} no final.')
-#os.system('cls') or None
+os.system('pause')
+os.system('cls') or None
